@@ -1,0 +1,10 @@
+[API] Serving request #1 - Database connected
+[API] Serving request #1 - Database connected
+[API] Serving request #2 - Database connected
+[API] Serving request #3 - Database connected
+[API] Serving request #4 - Database connected
+[API] Serving request #5 - Database connected
+[API] Serving request #6 - Database connected
+[API] Serving request #1 - Database connected
+[API] Serving request #2 - Database connected
+[API] Serving request #3 - Database connected

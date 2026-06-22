@@ -1,0 +1,20 @@
+project: test-project
+
+env:
+  type: venv
+  # Note: ./venv-mock is ignored by git. 
+  # To test local venv injection, create it first using: python -m venv venv-mock
+  path: ./venv-mock
+  variables:
+    GLOBAL_TEST_VAR: "orch-is-working"
+
+services:
+  backend:
+    path: ./backend
+    command: python app.py
+    env:
+      BACKEND_PORT: "8000"
+
+  ui:
+    path: ./ui
+    command: npm run dev
