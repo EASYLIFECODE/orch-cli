@@ -2,7 +2,7 @@
 
 [![PyPI version](https://img.shields.io/pypi/v/orch-cli.svg)](https://pypi.org/project/orch-cli/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Build Status](https://github.com/EASYLIFECODE/orch/workflows/CI/badge.svg)](https://github.com/EASYLIFECODE/orch/actions)
+[![Build Status](https://github.com/EASYLIFECODE/orch-cli/workflows/CI/badge.svg)](https://github.com/EASYLIFECODE/orch-cli/actions)
 
 **Orch** is a lightweight, **daemon-less** command-line interface (CLI) tool designed to simplify local development of client-server or multi-service architectures. 
 
@@ -34,8 +34,8 @@ pip install orch-cli
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/EASYLIFECODE/orch.git
-   cd orch
+   git clone https://github.com/EASYLIFECODE/orch-cli.git
+   cd orch-cli
    ```
 
 2. Install in editable development mode:
